@@ -1,0 +1,55 @@
+body{
+    overflow-x: hidden;
+    padding-top: 100px;
+}
+.contenedor_header {
+    z-index: 100;
+    position: fixed;
+    top: 0;
+    background-color: #fff4;
+    backdrop-filter: blur(2px);
+    width: 100vw;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.contenedor_logo {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+}
+.mado_logo {
+    width: 80px;
+}
+.header_titulo {
+    font-family: 'Dancing Script', serif;
+    font-size: 30px;
+    text-align: center;
+    margin: 5px;
+}
+.contenedor_navs1 {
+    display: flex;
+    flex-flow: row nowrap;
+    margin: 20px 30px;
+}
+.opcion_header {
+    display: table;
+    text-decoration: none;
+    color: #000;
+    font-size: 17px;
+    margin: 5px;
+    font-family: 'Lemon', serif;
+    padding: 5px;
+}
+.footer {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    background-color: #eee;
+    padding: 5px;
+}
+.texto_footer {
+    font-family: 'PT serif', serif;
+    font-size: 15px;
+}

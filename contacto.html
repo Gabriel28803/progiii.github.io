@@ -1,0 +1,73 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="estilo_contacto.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Lemon&family=PT+Serif&display=swap"
+        rel="stylesheet">
+    <link rel="icon" href="imagenes/mado_picture_trans.png" type="image/x-icon">
+    <title>Contáctanos-Mado.Pictures</title>
+</head>
+
+<body>
+    <header>
+        <div class="contenedor_header">
+            <div class="contenedor_logo">
+                <img src="imagenes/mado_picture_trans.png" alt="Mado_Logo" class="mado_logo">
+                <h1 class="header_titulo">Mado.Pictures</h1>
+            </div>
+            <div class="contenedor_navs1">
+                <nav><a href="index.html" class="opcion_header inicio" target="_blank"><i
+                            class="fa-solid fa-house icono"></i>Inicio</a>
+                </nav>
+                <nav><a href="organizacion.html" class="opcion_header organizacion" target="_blank"><i
+                            class="fa-solid fa-gear icono"></i>Organización</a></nav>
+                <nav><a href="productos.html" class="opcion_header productos" target="_blank"><i
+                            class="fa-solid fa-paintbrush icono"></i>Productos</a></nav>
+                <nav><a href="contacto.html" class="opcion_header contacto" target="_blank"><i
+                            class="fa-solid fa-phone icono"></i>Contáctanos</a>
+                </nav>
+                <nav><a href="ubicacion.html" class="opcion_header ubicacion" target="_blank"><i
+                            class="fa-solid fa-map icono"></i>Ubícanos</a></nav>
+            </div>
+        </div>
+    </header>
+    <div class="contenedor_formulario">
+        <div class="formulario">
+            <form action="#" method="post" class="contenedor_inputs">
+                <input type="text" class="formulario_input nombre" placeholder="Ingrese su Nombre" required>
+                <input type="text" class="formulario_input apellido" placeholder="Ingrese su Apellido" required>
+                <input type="number" class="formulario_input cedula" placeholder="Ingrese su cédula" required>
+                <input type="text" class="formulario_input telefono" placeholder="Ingrese su número Telefonico" required>
+                <input type="email" class="formulario_input correo" placeholder="Ingrese su correo" required>
+                <textarea name="comentario" id="comentario" cols="30" rows="10" class="formulario_input comentario"
+                    placeholder="Ingrese su mensaje" required></textarea>
+                <button type="submit" class="boton">Enviar</button>
+            </form>
+            <div class="formulario_cuadro">
+                <ul class="lista">
+                    <li class="lista_elemento"><i class="fa-regular fa-envelope"></i>mado.pictures@gmail.com</li>
+                    <li class="lista_elemento"><i class="fa-solid fa-phone"></i>+58 412-3742881</li>
+                    <li class="lista_elemento"><i class="fa-solid fa-map-pin"></i>Las Mercedes</li>
+                </ul>
+                <img src="imagenes/oso_escribiendo.jpeg" alt="Oso enviando un mensaje" class="imagen_formulario">
+                <p class="texto_formulario">Contáctanos!!</p>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <p class="texto_footer">Website desarrollado por: Gabriel Monascar</p>
+        <p class="texto_footer">Copyright 2024</p>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,44 @@
+.wallpaper {
+    display: block;
+    margin: auto;
+    height: 75vh;
+}
+.icono {
+    margin-right: 3px;
+}
+.ubicacion {
+    background-color: #000;
+    color: #fff;
+    border-radius: 15px;
+    padding: 5px 15px;
+}
+.opcion_header:not(.ubicacion)::after{
+    content: "";
+    display: block;
+    height: 3px;
+    background-color: #000;
+    transform: scale(0,1);
+    transform-origin: center;
+    transition: transform .25s;   
+}
+.opcion_header:hover::after{
+    transform: scale(1,1);
+}
+.contenedor_wallpaper {
+    background-color: #eee;
+    display: block;
+}
+.titulo {
+    font-family: 'Dancing Script', serif;
+    font-size: 75px;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 5px;
+}
+.texto {
+    font-size: 20px;
+    font-family: 'PT serif', sans-serif;
+    text-align: center;
+    display: block;
+    margin-top: 5px;
+}
